@@ -3,8 +3,7 @@ import pytest
 from potencia import potencia
 
 def test_potencia_correcto():
-    # Caso correcto: 2**3 = 8
-    assert potencia(2, 3) == 8
+    assert potencia(2, 3) == 9  # ERROR INTENCIONAL
 
 def test_potencia_limite_exponente_cero():
     # Caso límite: cualquier base distinta de 0 elevada a 0 es 1
